@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;    
+}
+a{
+    text-decoration: none;
+}
+.testimonials{
+    position: relative;
+}
+.testimonials::after{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url(../img/archi-12.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.testimonials .testimonails-header{
+    width: 50%;
+    margin: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.testimonials-content{
+    margin: 20px auto;
+    width:100%;
+    padding: 50px;
+    background-color: cadetblue;
+}
+.slider{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.first-slider{
+    overflow: hidden;
+    margin: 20px;
+    background-color: aqua;
+}
+.second-slider{
+    background-color: blue;
+}

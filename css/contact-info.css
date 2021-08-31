@@ -1,0 +1,30 @@
+.contact-info{
+    color:#686868;
+    font-size: 15px;
+    line-height: 30px;
+}
+.contact-info h3{
+    color: #303030;
+    font-size: 24px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+.contact-info p{
+    margin-bottom:25px ;
+    
+}
+.contact-info li{
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.contact-info span.fa-li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #a9a9a99d;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
